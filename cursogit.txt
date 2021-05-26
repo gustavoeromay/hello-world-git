@@ -1,0 +1,18 @@
+ejecutar Cmder
+
+
+git -- version
+git init
+git status
+
+1 - Inicializar un repositorio
+git init
+(se crea una carpeta .git que contendra todos los cambios)
+
+2 - Indica los cambios
+git status
+
+ON BRANCH MASTER - Ramas de Produccion (master - Proyecto estable), Desarrollo (en desarrollo), etc.
+NO COMMITS YET - commits (paquete de archivos de cambios / cada commits una version).
+UNTRACKED FILES: - archivos que no deberia tner control de version
+
