@@ -14,5 +14,14 @@ git status
 
 ON BRANCH MASTER - Ramas de Produccion (master - Proyecto estable), Desarrollo (en desarrollo), etc.
 NO COMMITS YET - commits (paquete de archivos de cambios / cada commits una version).
-UNTRACKED FILES: - archivos que no deberia tner control de version
+UNTRACKED FILES: (ROJO)- archivos que no deberia tner control de version.
+UNTRACKED FILES: (blanco)- archivos que deberia tener control de version.
+por lo tanto los sumo con:
+git add index.html
 
+Por lo tanto hya un cambio de version, se debe comitear
+
+git commit -m "se creo el archivo index y cursogit texto"
+
+Agrega todos los archivos
+git add --all
